@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IE - NITK</title>
+	<meta http-equiv="refresh" content="5">
+</head>
+
+<style type="text/css">
+	.center{
+      text-align: center;
+    }
+    .head-color{
+      color : #092040;
+    }
+    input[type=submit]
+    {
+        background-color: #008CBA;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        cursor: pointer;
+        margin:auto;
+        margin-bottom: 20px;
+        display: block;
+    }
+</style>
+
+<body>
+	<h1 class = "center head-color"><strong>IE GADGET - WORKSHOP</strong></h1><br><br>
+	<h2 class = "center head-color"> Sensor data : @ </h2>
+	<h2 class = "center head-color"> Led Status : @ </h2>
+	<form action = "ledon" class="center" method="GET">
+        <input type="submit" value="led on"/>
+  </form>
+  <form action = "ledoff" class="center" method="GET">
+        <input type="submit" value="led off"/>
+  </form>
+</body>
+</html>
